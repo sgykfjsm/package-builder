@@ -8,7 +8,7 @@ version=$2
 release=$3
 install_dir=$4
 deb=circleci-${package}-${version}_${release}_amd64.deb
-image=kimh/package_builder-$package
+image=sgykfjsm/package_builder-$package
 
 cd $package
 
